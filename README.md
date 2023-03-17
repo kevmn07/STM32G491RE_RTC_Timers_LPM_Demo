@@ -15,7 +15,7 @@ Port setting
 This is a demo project intended to show how to enable, configure and run STM32G4 peripherals. It lacks features required by commercial-grade software and therefore cannot be used in business applications without redesign and upgrade.
 __Use this software at your own risk, no support, help, or comments are provided now or in the future.__
 
-## Pereferial
+## Hardware
 
 ### UART
     - Polling mode is used. No complaints there, as this is a DEMO project. Also, in some cases, polling mode is an unavoidable solution.
