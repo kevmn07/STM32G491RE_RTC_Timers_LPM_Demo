@@ -15,9 +15,9 @@ Port setting
 This is a demo project intended to show how to enable, configure and run STM32G4 peripherals. It lacks features required by commercial-grade software and therefore cannot be used in business applications without redesign and upgrade.
 __Use this software at your own risk, no support, help, or comments are provided now or in the future.__
 
-##Pereferial
+## Pereferial
 
-###UART
+### UART
     - Polling mode is used. No complaints there, as this is a DEMO project. Also, in some cases, polling mode is an unavoidable solution.
 
 ### Timer (LPTIM1)
@@ -43,7 +43,7 @@ __Use this software at your own risk, no support, help, or comments are provided
     - Stays operating in LPM mode.
     - The date and time are updated on Startup.
 
-###Low Power (Sleep) Mode
+### Low Power (Sleep) Mode
     - Stops CPU clock.
     - Exit from LP Mode on Real Time Clock WakeUp Interrupt.
 
@@ -102,7 +102,7 @@ END LOOP
 
 ## Notes
 	- The goal of this project is to show how to run STM32G4 MCU hardware rather than provide an example of great coding practice, and some fun code has been added for compatibility with STM Cube IDE's auto code generation.
-	 - Anyone interested is welcome to email <kevmn07@gmail.com> to report a bug, suggest improvements to the current Demo, or request a more reliable and fully documented commercial version. However, no obligation to respond.
+	- Anyone interested is welcome to email <kevmn07@gmail.com> to report a bug, suggest improvements to the current Demo, or request a more reliable and fully documented commercial version. However, no obligation to respond.
 
 ## References:
 * [STM32G491RE on the ST website](https://www.st.com/en/microcontrollers-microprocessors/stm32g491re.html)
