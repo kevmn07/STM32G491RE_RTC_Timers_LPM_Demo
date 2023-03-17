@@ -2,8 +2,10 @@
 
 ## Baremetall Real Time Clock, Timers, and Low Power Mode implementation for the Nucleo-G491RE evaluation board.
 
-STM32CubeIDE ver. 1.11.2 used to build the Demo. 
+STM32CubeIDE ver. 1.12.0 used to build the Demo. 
+
 VCP UART port is dedicated to the data transfer, see the board user manual.
+
 Port setting
   BaudRate : 115200 bps
   Length   : 8 bits
